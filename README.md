@@ -4,6 +4,8 @@
 
 Neopixel LEDs aka **WS2812b** addressable RGB LEDs are very fun to play with because it has integrated driver IC built in which allows us to control tons of such LEDs using **single Data line** from the microcontroller. But if you feel a single WS2812B led isn't bright enough for a certain project then **Neopixel-XL** will fill that gap. 
 
+<img src="https://github.com/palsayantan/Neopixel-XL/blob/main/3D/3d%20preview.png" width="430px" />
+
 It consists of a **3W RGB LED**, a **WS2811 LED driver IC** and 3 mosfets with complimentary resistors to boost the week signal from the WS2811 outputs to drive the high power LED. 
 
 It shared the same pinout as the original WS2812B led. And you can also daisy chained them together. But make sure to use a separate power supply that can deliver enough power to drive all these high power LEDs.
