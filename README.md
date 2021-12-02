@@ -24,7 +24,7 @@ It shared the same pinout as the original WS2812B led. And you can also daisy ch
 | :-------------------------: | :-------------------------: |
 | ![Schematics](https://github.com/palsayantan/Neopixel-XL/blob/main/Schematic/NeoPixel_XL_sch.png)  | ![Dimensions](https://github.com/palsayantan/Neopixel-XL/blob/main/PCB/Dimentions.png)  |
 
-## Specifications: 
+### Specifications: 
 
 | Parameter | Ratings | Unit
 | ---- | ---- | --- |
