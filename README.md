@@ -1,6 +1,7 @@
 # Neopixel-XL
 
-*A 3W Addressable RGB LED similar to NeoPixel*
+A 3W Individually Addressable RGB LED similar to Neopixel
+---
 
 ## Overview
 
