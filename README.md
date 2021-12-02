@@ -2,23 +2,35 @@
 
 *A 3W Addressable RGB LED similar to NeoPixel*
 
-Neopixel LEDs aka **WS2812b** addressable RGB LEDs are very fun to play with because it has integrated driver IC built in which allows us to control tons of such LEDs using **single Data line** from the microcontroller. But if you feel a single WS2812B led isn't bright enough for a certain project then **Neopixel-XL** will fill that gap. 
+## Overview
 
+Neopixel LEDs aka **WS2812b** addressable RGB LEDs are very fun to play with because it has integrated driver IC built in which allows us to control tons of such LEDs using **single Data line** from the microcontroller. But if you feel a single WS2812B led isn't bright enough for a certain project then **Neopixel-XL** will fill that gap. 
+<p align="center">
 <img src="https://github.com/palsayantan/Neopixel-XL/blob/main/3D/3d_preview-removebg-preview.png" width="430px" />
+</p>
+## Hardware
 
 It consists of a **3W RGB LED**, a **WS2811 LED driver IC** and 3 mosfets with complimentary resistors to boost the week signal from the WS2811 outputs to drive the high power LED. 
 
 It shared the same pinout as the original WS2812B led. And you can also daisy chained them together. But make sure to use a separate power supply that can deliver enough power to drive all these high power LEDs.
 
+| PCB Layout | PCB Footprint |
+| :-------------------------: | :-------------------------: |
+| ![PCB Layout](https://github.com/palsayantan/Neopixel-XL/blob/main/PCB/PCB_layout-removebg-preview.png)  | ![PCB Footprint](https://github.com/palsayantan/Neopixel-XL/blob/main/PCB/footprint.png)  |
+
+| Schematics | Dimensions |
+| :-------------------------: | :-------------------------: |
+| ![Schematics](https://github.com/palsayantan/Neopixel-XL/blob/main/Schematic/NeoPixel_XL_sch.png)  | ![Dimensions](https://github.com/palsayantan/Neopixel-XL/blob/main/PCB/Dimentions.png)  |
+
 ## Specifications: 
 
-- Input voltage : DC 5v 
-- Input Current : 1A 
-- Power Consumption : 3W 
-- Dimension : 20mm x 20mm 
-- Shared the same pinout as WS2812 
-- Compatible with FastLED library 
-- works with any microcontroller
+| Parameter | Ratings | Unit
+| ---- | ---- | --- |
+| Forward Voltage | 5 | V |
+| Forward Current | 0.6 | A |
+| Peak Current | 0.8 | A |
+| Power Consumption | 3 | W |
+
 
 ## Getting Started
 
