@@ -44,7 +44,7 @@ It shared the same pinout as the original WS2812B led. And you can also daisy ch
 #define NUM_LEDS 1
 #define DATA_PIN 4
 CRGB leds[NUM_LEDS];
-void setup() { FastLED.addLeds<WS2812B, DATA_PIN, RGB>(leds, NUM_LEDS); }
+void setup() { FastLED.addLeds<WS2811, DATA_PIN, RGB>(leds, NUM_LEDS); }
 
 void loop() {
   leds[0] = CRGB::Red; FastLED.show(); delay(500);
